@@ -1,0 +1,16 @@
+.unfilled {
+    background-color: lightgray;
+    width: 10px;
+    height: 10px;
+    
+}
+
+.filled {
+    background-color: black;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(16, 10px);
+    grid-template-rows: repeat(16, 10px);
+}
